@@ -6,7 +6,6 @@ import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import resume from "../../Assets/resume.pdf";
-import pdf from "../../Assets/Soumyajit-Behera.pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink = resume;
@@ -28,7 +27,7 @@ function ResumeNew() {
             position: "relative",
           }}
         >
-          <Button variant="primary" href={pdf} target="_blank">
+          <Button variant="primary" href={resumeLink} target="_blank">
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
@@ -44,10 +43,9 @@ function ResumeNew() {
           style={{
             justifyContent: "center",
             position: "relative",
-            // display: ,
           }}
         >
-          <Button variant="primary" href={pdf} target="_blank">
+          <Button variant="primary" href={resumeLink} target="_blank">
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
