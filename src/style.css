@@ -684,7 +684,7 @@ html {
   border: 2px solid #8a49a8;
 }
 
-/* .like-item {
+.like-item {
   padding-top: 10px !important;
   font-size: 1.1em !important;
   font-family: sans-serif !important;
@@ -709,7 +709,7 @@ html {
   animation-name: likeAnimation;
   animation-fill-mode: forwards;
   animation-duration: 0.85s;
-} */
+}
 @keyframes likeAnimation {
   0% {
     transform: scale(1.5);
@@ -718,7 +718,7 @@ html {
     transform: scale(1);
   }
 }
-/* 
+
 .fork-btn {
   font-size: 1.1em !important;
   padding-top: 10px !important;
@@ -739,4 +739,4 @@ html {
 }
 .fork-btn-inner::after {
   display: none !important;
-} */
+}
