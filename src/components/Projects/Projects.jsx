@@ -6,6 +6,7 @@ import Particle from "../Particle";
 import frontend from "../../Assets/Projects/frontendmasters.gif";
 import pharmeasy from "../../Assets/Projects/pharmeasy.gif";
 import healthkart from "../../Assets/Projects/healthkart.gif";
+import Policybazzar from "../../Assets/Projects/policybazzar.gif";
 
 function Projects() {
   return (
@@ -49,6 +50,17 @@ function Projects() {
               description="This project is a clone of (HealthKart.com) which is India’s largest online health & fitness store for men and women. Shop online from the latest collections of health, fitness and similar products featuring the best brands."
               link="https://github.com/Dhruvkagrawal/HealtKart.com-Clone"
               live="https://hemantjayas.github.io/HealthKart/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Policybazzar}
+              isBlog={false}
+              title="Policybazzar"
+              description="This project is a clone of (Policybazzar.com) which is India’s largest Insurance buying Platform.This project is devloped using famous frontend library ReactJS."
+              link="https://github.com/Renukote/policy-bazaar-clone"
+              live="https://policybaazar.herokuapp.com/"
             />
           </Col>
         </Row>
